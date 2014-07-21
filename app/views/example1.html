@@ -1,0 +1,39 @@
+<!-- POC by AlexT-->
+<!-- https://github.com/krispo/angular-nvd3 -->
+<!-- http://krispo.github.io/angular-nvd3/#/quickstart -->
+
+<div>
+  
+  <h1 class="txtcenter">Graph Insight! (POC)</h1>
+  <a href="#example2">Example-2</a>
+  <hr>
+
+
+  <!-- BAR CHART-->
+   <div class="fleft w70" >
+     <h2>BAR CHART</h2>
+     <p class="txtcenter">"Edit or add data to the box, in the same format to change or add data to the Bar Chart"</p>
+        <nvd3 options='optionsBAR' data='dataBAR'></nvd3>
+    </div>
+
+    <div class="fright w30">    
+      <h3>Edit/add Data Box</h3>
+      <textarea class="w80" ng-model="BARValues" ng-change="cambiarBAR(BARValues)"> </textarea>
+    </div>
+
+    <hr class="fright w100">
+
+    <!-- PIE CHART -->
+    <div class="fleft w70" >
+      <h2>PIE CHART</h2>
+           <p class="txtcenter">"Edit or add data to the box, in the same format to change or add data to the Pie Chart"</p>
+        <nvd3 options='optionsPIE' data='dataPIE'></nvd3>
+    </div>
+
+     <div class="fright w30">    
+      <h3>Edit/add Data Box</h3>
+      <textarea class="w80" ng-model="PIEValues" ng-change="cambiarPIE(PIEValues)"> </textarea>
+    </div>
+
+    
+</div>

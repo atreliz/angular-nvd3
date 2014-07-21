@@ -1,0 +1,20 @@
+.fleft{float:left;}
+.fright{float:right;}
+
+.txtcenter{text-align:center;}
+
+.w22{width:23%; margin-bottom:1%; margin-right:1%; display:block;}
+.w30{width:30%; display:block;}
+.w40{width:40%; display:block;}
+.w50{width:50%; display:block;}
+.w70{width:70%; display:block;}
+.w80{width:80%; display:block;}
+.w100{width:100%; display:block;}
+
+
+.h100{height:100%;}
+.h50px{height:50px;}
+.h100px{height:100px;}
+
+textarea{ height:400px;}
+ul{list-style:none;}
